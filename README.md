@@ -2,6 +2,8 @@
 
 Data Pipeline with Databricks
 
+[![CI](https://github.com/nogibjj/IDS706_alejandroparedeslatorre_assignment11_databricks/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/IDS706_alejandroparedeslatorre_assignment11_databricks/actions/workflows/CI.yml)
+
 The primary purpose of this project is to design and develop an efficient data pipeline using Databricks. This pipeline should integrate data sources and destinations, emphasizing the designer's ability to perform extraction, transformation, and loading (ETL) tasks effectively. The focus is on ensuring the efficiency and scalability of the pipeline, along with the proper configuration of data sources and destinations.
 
 This repository provides an ETL pipeline using PySpark within Databricks to extract data from an external API, transform it for analysis, and load it into a Databricks Delta table.
