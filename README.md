@@ -1,5 +1,3 @@
----
-
 # IDS706_AlejandroParedesLaTorre_Assignment11_Databricks
 
 Data Pipeline with Databricks
@@ -97,9 +95,3 @@ etl.spark_sql_query("SELECT * FROM aplt_universities LIMIT 10")
 ```
 
 This project demonstrates PySpark’s capabilities for handling large-scale data processing within Databricks, showcasing how to implement an ETL pipeline and query the data using Spark SQL.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details. 
-
----
