@@ -1,8 +1,8 @@
 """
 Test databricks fucntionaility
 """
-!pip install python-dotenv
-%restart_python
+#!pip install python-dotenv
+#%restart_python
 import requests
 from dotenv import load_dotenv
 import os
