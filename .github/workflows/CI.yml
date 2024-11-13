@@ -14,4 +14,8 @@ jobs:
       - name: install packages
         run: make install
       - name: test
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          SERVER_HOSTNAME: ${{ secrets.SERVER_HOSTNAME }}
+          DWH_DB: ${{ secrets.DWH_DB }}
         run: make test
